@@ -1,0 +1,6 @@
+@Equisoft_Bixi.WebApi_HostAddress = http://localhost:5018
+
+GET {{Equisoft_Bixi.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
