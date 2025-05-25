@@ -1,4 +1,4 @@
-# Bixi Staton Data (Equisoft Full Stack Developer Test)
+# Bixi Station Data (Equisoft Full Stack Developer Test)
 
 This project is a full-stack application that fetches and displays Bixi bike station information.
 
