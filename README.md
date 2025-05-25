@@ -28,12 +28,14 @@ However, in larger applications, filtering and sorting are better handled in the
 As for pagination, since the dataset is under 1000 records, I implemented client-side paging in React. For larger datasets, it would be more efficient to implement server-side pagination within the API service to reduce data transfer and improve performance.
 
 
-
 ## Frontend (React)
 - `components/StationList.jsx`
 - `services/stationService.js`
 - Uses `fetch` for API calls
 - Bootstrap UI with filter inputs, table view, and pagination
+
+## Testing
+I did not implement automated unit tests for this project. However, I manually tested the API endpoints and various filter parameters using Swagger UI before integrating with the frontend. This helped verify that the API correctly handles different query filters and returns expected results.
 
 ## Getting Started
 
