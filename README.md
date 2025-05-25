@@ -57,6 +57,16 @@ npm install
 npm start
 ```
 
+### ⚠️ Important: API URL Configuration
+In the frontend (bixi-ui), the API base URL is hardcoded in the stationService.js file.
+
+Make sure to update it to match the actual address and port where your ASP.NET Web API is running locally.
+
+
+//src/services/stationService.js
+
+const ApiUrl = "https://localhost:7036/api/Stations";//  Change this if your API runs on a different port
+If the backend is running on a different port or hostname, update this URL accordingly to avoid CORS or connection errors.
 
 ## Ambiguous Feature Interpretation
 
